@@ -1,12 +1,11 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import LoginScreen from './views/LoginScreen.js';
-import MapboxScreen from './views/MapboxScreen.js'; // Asegúrate de que la ruta es correcta
+import LoginScreen from './views/LoginScreen.js'; // Asegúrate de que la ruta es correcta
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <MapboxScreen/>
+      <LoginScreen />
     </SafeAreaView>
   );
 };
